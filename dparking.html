@@ -1,1 +1,49 @@
-d-parking 2020-2020
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registro</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+    	<div class="col-md-6">
+    		<div class="row justify-content-md-center">
+    		<form action="guardar.php" method="post">
+    			
+    			<h3>REGISTRAR USUARIO</h3><br>
+    			<div class="from-group">
+    				<input type="text" class= "form-control"name="txtnombre" placeholder="Nombre de usuario" required="">
+    			</div>
+    			<div class="from-group">
+    				<input type="text" class= "form-control"name="txtapellido" placeholder="Apellido de usuario">
+    			</div>
+    			<div class="from-group">
+    				<input type="email" class= "form-control"name="txtemail" placeholder="Correo de usuario" required="">
+    			</div>
+    			<div class="from-group">
+    				<input type="password" class= "form-control"name="txtpassword" placeholder="Contraseña de usuario"required="">
+    			</div><br>
+
+    			<center><button type="submit" name="registrar" class="btn btn-info"> Registrar</button></center>
+
+
+    		</form>
+
+
+        </div>
+
+    	</div>
+
+    </div>
+	
+
+</div>
+
+
+</body>
+</html>
